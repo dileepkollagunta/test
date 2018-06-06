@@ -1,0 +1,23 @@
+polymorphisiom concept is applicable for base type not for parameter type[ wil get incompatible type]
+
+? super Class
+
+without existing outer class obj, there is no chance of existing inner class obj 
+
+has-a relation == composition/aggregation 
+is-a relation == 
+
+class A{
+	class B{
+	
+	}
+}
+
+4 types :
+ 1.normal/regulat inner class
+ 2.method local inner class[inside method]
+ 3.anonymous inner class[without name]
+ 4.[declare inner class with static] static nested classes
+ 
+ 
+ inside inner class cannt have static declarations
